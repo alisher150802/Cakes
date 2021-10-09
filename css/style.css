@@ -1,0 +1,493 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+/*HEADER*/
+#header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 30px;
+}
+
+.header__item a {
+    margin: 0 15px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.header__call {
+    padding: 10px 25px;
+    color: #FFFFFF;
+    background: #FF0000;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header__call:hover {
+    color: #FFFFFF;
+    background: transparent;
+    transition: 0.7s;
+}
+
+/*HEADER*/
+
+
+/*HERO*/
+
+#hero {
+    background: url("../img/bg.png") no-repeat center/cover;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+.hero__title {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 53px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    width: 586px;
+}
+
+.hero__title span {
+    color: red;
+}
+
+.hero__desc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    width: 408px;
+}
+
+.hero__btn {
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: red;
+    padding: 5px 25px;
+    border-radius: 50px;
+}
+
+.hero__btn:hover {
+    box-shadow: 5px 5px 25px rgba(255, 255, 255, 0.25), -5px -5px 25px rgba(255, 255, 255, 0.25);
+    color: #FFFFFF;
+    background: transparent;
+    transition: 0.7s;
+}
+
+/*HERO*/
+
+
+/*ABOUT*/
+
+#about {
+    font-family: "Oswald", sans-serif;
+    background: #0A0A0A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.row {
+    margin-left: auto;
+}
+
+.about__num {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    color: #FF0000;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.about__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+
+/*ABOUT*/
+
+/*ADVANTAGE*/
+#advantage {
+    background: url("../img/bg2.png") no-repeat center/cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.advantage__title {
+    font-family: Oswald, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.advantage__text {
+    font-family: Oswald, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 71px;
+    text-transform: uppercase;
+    color: #FF0000;
+}
+
+.advantage__desc {
+    font-family: Montserrat, sans-serif;
+    width: 421px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+
+/*ADVANTAGE*/
+
+/*PRODUCT*/
+#product {
+    background: #0A0A0A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.title {
+    font-family: Oswald, sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.box1 {
+
+    width: 326px;
+    height: 398px;
+    background: #000000;
+    box-shadow: 6px 6px 30px rgba(195, 163, 163, 0.25), -6px -6px 30px rgba(195, 163, 163, 0.25);
+    border-radius: 30px;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    margin-bottom: 50px;
+}
+
+.box1:hover {
+    transform: translate(30px);
+}
+
+.product__left {
+    float: left;
+}
+
+.product__right {
+    float: right;
+}
+
+.product__title {
+    text-align: left;
+    width: 246px;
+}
+
+.product__desc {
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.product__num {
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF0000;
+}
+
+.product__btn {
+    color: #FFFFFF;
+    background: #8C0404;
+    border-radius: 50px;
+    padding: 15px 50px;
+    text-transform: capitalize;
+    float: right;
+}
+
+.product__btn:hover {
+    box-shadow: 2px 2px 13px rgba(255, 255, 255, 0.25), -2px -2px 13px rgba(255, 255, 255, 0.25);
+}
+
+.product__img {
+    padding: 15px 30px;
+    width: 256px;
+    height: 172px;
+}
+
+/*PRODUCT*/
+
+
+/*TESTIMONIALS*/
+#testimonials {
+    background: #0A0A0A;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.slider__item img {
+    width: 122px;
+    height: 122px;
+    text-align: center;
+
+}
+
+.slider__item {
+    text-align: center;
+
+}
+
+.testimonials__title {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.testimonials__desc {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 132.4%;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    padding-top: 10px;
+    width: 240px;
+    margin: auto;
+    padding-bottom: 15px;
+
+}
+
+
+.testimonials__star {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.testimonials__star__svg {
+    margin: 0 10px;
+}
+
+/*SLIDER*/
+
+.slick-track {
+    display: flex;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slider {
+    position: relative;
+    padding: 0 30px;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    width: 20px;
+    height: 50px;
+    margin: -30px 0 0 0;
+    font-size: 0;
+    border: none;
+}
+
+.slider__author {
+
+}
+
+.slider .slick-arrow.slick-prev {
+    background: url("../img/chevron-prev.svg") 0 0 / 100% no-repeat;
+    left: 0;
+}
+
+.slider .slick-arrow.slick-next {
+    background: url("../img/chevron-next.svg") no-repeat;
+    right: 0;
+}
+
+.slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    font-size: 0;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.slider.slick-dots li {
+    list-style: none;
+}
+
+.slider .slick-dots button {
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.slider .slick-dots .slick-active button {
+    background: #FFFFFF;
+}
+
+
+/*TESTIMONIALS*/
+
+/*DELIVERY*/
+#delivery {
+    background: #0A0A0A;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.delivery__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.delivery__desc {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 367px;
+    margin: 0 30px 40px;
+}
+
+.delivery__desc:before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background: #FF0000;
+    border-radius: 50%;
+    margin-left: -50px;
+}
+
+.delivery__span {
+    color: #FF0000;
+}
+
+
+/*DELIVERY*/
+
+/*CONTACT*/
+#contact {
+    background: #0A0A0A;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contact__title {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FF0000;
+    text-transform: capitalize;
+}
+
+.contact__desc {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+
+/*CONTACT*/
+
+/*FOOTER*/
+#footer {
+    background: url("../img/bg.png") no-repeat center/cover;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__menu__item a{
+    margin: 0 15px;
+    text-transform: capitalize;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.footer__link {
+    margin: 0 15px;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+/*FOOTER*/
